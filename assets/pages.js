@@ -3,8 +3,8 @@
 const firm = {
     name: "Stevenson Legal Group LLP",
     province: "Ontario, Canada",
-    primaryEmail: "barristerjeanettestevenson@gmail.com",
-    alternateEmail: "barristerjeanettestevensonlw@gmail.com",
+    primaryEmail: "stevensonbarristerjeanette@gmail.com",
+    alternateEmail: "stevensonbarristerjeanette@gmail.com",
     telegramUrl: "https://t.me/BARRISTER_JEANETT_STEVENSON_Esq",
     telegramNumber: "+1 863 251 4333"
 };
