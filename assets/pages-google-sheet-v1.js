@@ -1,7 +1,7 @@
 "use strict";
 
 
-const CONSULTATION_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzJIvQEC7jGM59mbTagE8yTW0Hent-bSG5t8zZnkLjNkVbJkpH6Mwl2qO6Dy2ZWt4bYEQ/exec";
+const CONSULTATION_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzCpvlsx_8T3OoDUug105HxFztetxrCkU_G6AOkhUHMRyJjmXq-pa05VvRfCWrR4hK74Q/exec";
 
 function buildConsultationPayload(form) {
     const formData = new FormData(form);
