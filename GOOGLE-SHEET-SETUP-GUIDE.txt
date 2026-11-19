@@ -1,0 +1,32 @@
+STEVENSON LEGAL GROUP — GOOGLE SHEETS CONNECTION
+
+Website endpoint configured in this ZIP:
+https://script.google.com/macros/s/AKfycbzJIvQEC7jGM59mbTagE8yTW0Hent-bSG5t8zZnkLjNkVbJkpH6Mwl2qO6Dy2ZWt4bYEQ/exec
+
+WHAT THIS ZIP DOES
+- Points the website consultation forms to the Web App URL above.
+- Updates the homepage and subpage form scripts.
+- Includes a reference Apps Script receiver in google-apps-script/Code.gs.
+- Changes the confirmation copy so the website does not claim it independently verified a Google Sheets write. The browser uses a cross-origin no-cors request and cannot read Google's response.
+
+IMPORTANT GOOGLE APPS SCRIPT SETUP
+1. Open the exact Google spreadsheet where consultation records should be stored.
+2. Confirm its tab is named exactly: Consultation
+3. From that spreadsheet, open Extensions > Apps Script. This is important: the script must be bound to the target spreadsheet because Code.gs uses SpreadsheetApp.getActiveSpreadsheet().
+4. Replace the Apps Script editor contents with the code in google-apps-script/Code.gs.
+5. Save the project.
+6. Deploy > Manage deployments > Edit (pencil) > select New version > Deploy.
+7. Confirm the Web App URL shown by Google is exactly the endpoint above.
+8. Set Execute as: Me. Set Who has access: Anyone.
+9. If Google gives a different /exec URL, update the endpoint in the website files before deploying the website.
+
+WEBSITE DEPLOYMENT
+1. Extract this ZIP.
+2. Deploy the extracted website contents to Vercel, replacing the previous deployment.
+3. Test with a non-sensitive test consultation.
+4. Check Apps Script > Executions and the Consultation tab.
+
+IMPORTANT LIMITATION
+The browser request is cross-origin and uses no-cors, so the website cannot inspect the Apps Script JSON response. The updated confirmation text is therefore careful not to claim that the spreadsheet write was independently verified. A successful row appearing in the Consultation tab is the definitive test.
+
+If Apps Script Executions still shows zero executions after a fresh test submission, verify that the website deployment uses this ZIP and that the deployed Web App URL is the same as the configured URL.
