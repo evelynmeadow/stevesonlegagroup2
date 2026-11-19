@@ -397,7 +397,7 @@ function getConsultationSuccessModal() {
             <p class="success-modal__eyebrow">Consultation Request</p>
 
             <h2 id="consultation-success-title">
-                Consultation Request Successfully Submitted
+                Consultation Request Sent
             </h2>
 
             <p id="consultation-success-description">

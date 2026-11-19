@@ -218,7 +218,7 @@ if (consultationForm) {
                 formStatus.textContent = "";
             }
 
-            showToast("Consultation Request Successfully Submitted");
+            showToast("Consultation Request Sent");
         }
     );
 }
