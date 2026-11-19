@@ -1,0 +1,18 @@
+DEPLOYMENT VERSION: GOOGLE-SHEET-V1-20260720
+
+1. Delete or replace the old files in your GitHub/Vercel project.
+2. Upload ALL files and folders from this ZIP, including assets and vercel.json.
+3. Confirm consultation.html references assets/pages-google-sheet-v1.js.
+4. Confirm index.html references script-google-sheet-v1.js.
+5. Commit and wait for the new Vercel deployment to finish.
+6. Open the newest deployment, then press Ctrl+Shift+R once.
+
+Google Sheet integration:
+- Submissions are sent to the provided Google Apps Script Web App.
+- The Apps Script saves them to the sheet tab named Consultation.
+- The form is cleared only after the browser sends the request.
+- The success modal then opens with Cancel and Go Back / Enter New Details.
+
+Verification:
+Open consultation.html page source and search for pages-google-sheet-v1.js.
+Open index.html page source and search for script-google-sheet-v1.js.

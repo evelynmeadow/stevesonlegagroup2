@@ -1,0 +1,8 @@
+Consultation Web App endpoint:
+https://script.google.com/macros/s/AKfycbzJIvQEC7jGM59mbTagE8yTW0Hent-bSG5t8zZnkLjNkVbJkpH6Mwl2qO6Dy2ZWt4bYEQ/exec
+
+Expected Google Sheet tab:
+Consultation
+
+Website form fields sent:
+fullName, email, phone, contactMethod, service, location, preferredDate, preferredTime, opposingParty, deadline, summary, consent
