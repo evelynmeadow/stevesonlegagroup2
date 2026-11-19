@@ -1,7 +1,7 @@
 STEVENSON LEGAL GROUP — GOOGLE SHEETS CONNECTION
 
 Website endpoint configured in this ZIP:
-https://script.google.com/macros/s/AKfycbzJIvQEC7jGM59mbTagE8yTW0Hent-bSG5t8zZnkLjNkVbJkpH6Mwl2qO6Dy2ZWt4bYEQ/exec
+https://script.google.com/macros/s/AKfycbzCpvlsx_8T3OoDUug105HxFztetxrCkU_G6AOkhUHMRyJjmXq-pa05VvRfCWrR4hK74Q/exec
 
 WHAT THIS ZIP DOES
 - Points the website consultation forms to the Web App URL above.
