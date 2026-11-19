@@ -2215,3 +2215,24 @@ body { background: var(--paper); color: var(--ink); }
     .form-actions .button { width: 100%; }
     .consultation-information { padding: 26px 22px; }
 }
+
+
+/* FIX: Keep the header consultation CTA label readable in every interaction state.
+   The general navigation hover rule must not recolour button text red. */
+.primary-nav a.button,
+.primary-nav a.button:hover,
+.primary-nav a.button:focus,
+.primary-nav a.button:focus-visible,
+.primary-nav a.button:active,
+.primary-nav a.button[aria-current="page"],
+.primary-nav a.button.is-active {
+    color: #ffffff !important;
+}
+
+.primary-nav a.button:hover,
+.primary-nav a.button:focus-visible,
+.primary-nav a.button:active,
+.primary-nav a.button[aria-current="page"],
+.primary-nav a.button.is-active {
+    background-color: #a50d26;
+}
